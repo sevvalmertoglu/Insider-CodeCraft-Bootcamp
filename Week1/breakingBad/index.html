@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breaking Bad</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/breakingBad_logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="images/breakingBad_logo.png" alt="Breaking Bad Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Ana Sayfa</a></li>
+            <li><a href="#characters">Karakterler</a></li>
+            <li><a href="#favorite-scene">Favori Sahne</a></li>
+            <li><a href="#episodes">Bölümler</a></li>
+        </ul>
+        <div class="profile-icon">
+            <img src="images/profile-user.png" alt="Profile Icon">
+        </div>
+        <div class="hamburger-menu">&#9776;</div>
+    </nav>
+
+    <section id="home">
+        <img src="images/poster.jpg" alt="Breaking Bad Banner">
+        <h1><a href="https://www.imdb.com/title/tt0903747/" target="_blank">5eaking 6d</a></h1> 
+        <a href="https://www.imdb.com/title/tt0903747/" target="_blank">IMDB 9.5/10</a>
+        <p>Breaking Bad, Vince Gilligan tarafından yaratılan ve AMC'de yayımlanan bir Amerikan suç drama dizisidir. Çekimleri, hikâyenin de geçtiği Albuquerque, New Mexico'da yapılan dizi, ellinci başlangıç yasınını kutladıktan sonra üçüncü evre akciğer kanseri olduğunu öğrenen kimya öğretmeni Walter White'ın (Bryan Cranston) uyuşturucu baronuna dönüşme sürecini konu almaktadır. Walter, ölmeden önce ailesini güvence altına almaya yetecek kadar para bırakmak için eski öğrencisi Jesse Pinkman (Aaron Paul) ile metamfetamin üretmeye başlar ve suç dünyasına adımını atar.</p>
+    </section>
+
+    <section id="characters">
+        <h2>Ana Karakterler</h2>
+        <div class="scroll-button left" onclick="scrollCharacters(-1)">&#10094;</div>
+        <div class="scroll-button right" onclick="scrollCharacters(1)">&#10095;</div>
+        <div class="character-grid">
+            <div class="character">
+                <img src="images/walter-white.png" alt="Walter White">
+                <p>Walter White <br/> Lise kimya öğretmeni ve uyuşturucu üreticisi.</p>
+            </div>
+            <div class="character">
+                <img src="images/jesse-pinkman.png" alt="Jesse Pinkman">
+                <p>Jesse Pinkman <br/> Walter'ın eski öğrencisi ve uyuşturucu iş ortağı.</p>
+            </div>
+            <div class="character">
+                <img src="images/saul-goodman.webp" alt="Saul Goodman">
+                <p>Saul Goodman <br/> Walter ve Jesse'nin avukatı.</p>
+            </div>
+            <div class="character">
+                <img src="images/hank-scrader.webp" alt="Hank Scrader">
+                <p>Hank Scrader <br/> Polis memuru ve  Walter'ın kayınçosu.</p>
+            </div>
+            <div class="character">
+                <img src="images/skylar-white.webp" alt="Skylar White">
+                <p>Skylar White <br/>  Walter'ın eşi.</p>
+            </div>
+            <div class="character">
+                <img src="images/gus-fring.webp" alt="Gus Fring">
+                <p>Gus Fring <br/> Restoran girişimcisi ve New Mexico, Albuquerque'de çalışan büyük bir uyuşturucu dağıtımcısı.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="favorite-scene">
+        <h2>Favori Sahne</h2>
+        <p>Walter White'ın "Say my name" sahnesi, dizinin en ikonik sahnelerinden biridir. Bu sahne, Walter White’ın "Heisenberg" kimliğini tam anlamıyla benimseyip gücünü ilan ettiği anlardan biridir. Walter, artık sadece bir lise kimya öğretmeni değil, uyuşturucu dünyasının en korkulan isimlerinden biridir.</p>
+        <iframe src="https://www.youtube.com/embed/uEk8SJXaSn8?si=JgCspB1QNNjKOoGV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <section id="episodes">
+        <h2>Bolumler</h2>
+        <div class="episode-list">
+            <div class="episode">
+                <h3>1. Bölüm: Pilot</h3>
+                <p>Walter White, kanser olduğunu öğrenir ve ailesine para bırakmak için uyuşturucu üretmeye başlar.</p>
+            </div>
+            <div class="episode">
+                <h3>2. Bölüm: Cat's in the Bag...</h3>
+                <p>Walter ve Jesse, ilk uyuşturucu işlerini yapmaya çalışırken beklenmedik sorunlarla karşılaşır.</p>
+            </div>
+            <div class="episode">
+                <h3>3. Bölüm: ...And the Bag's in the River</h3>
+                <p>Walter, ilk cinayetini işler ve bu onun için bir dönüm noktası olur.</p>
+            </div>
+            <div class="episode">
+                <h3>4. Bölüm: Cancer Man</h3>
+                <p>Walter, kanser tedavisi için para bulmaya çalışırken ailesiyle ilişkileri gerilir.</p>
+            </div>
+            <div class="episode">
+                <h3>5. Bölüm: Gray Matter</h3>
+                <p>Walter, eski iş ortağı Elliott Schwartz ile karşılaşır ve geçmişiyle yüzleşir.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© Created by Şevval Mertoğlu</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/sevvalmertoglu8/" target="_blank">Linkedin</a>
+            <a href="https://github.com/sevvalmertoglu" target="_blank">GitHub</a>
+        </div>
+    </footer>
+
+    <button id="favorite-btn">Favorilere Ekle</button>
+    <button id="scroll-to-top-btn" title="Yukarı Çık">&#8679;</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
