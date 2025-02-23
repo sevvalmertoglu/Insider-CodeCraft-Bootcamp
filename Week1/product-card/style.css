@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.card {
+    background: white;
+    padding: 16px;
+    border-radius: 15px;
+    border: 3px solid #43025f45;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    max-width: 300px; 
+    width: 100%;
+    height: 420px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.2);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: contain; 
+}
+
+.card img:hover {
+    animation: flashAnimation 1s ease-out;
+}
+
+@keyframes flashAnimation {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.color-options {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    gap: 8px;
+}
+
+.color {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.3s;
+}
+
+.color:hover {
+    border: 2px solid black;
+}
+
+.black { background: rgb(101, 100, 100); }
+.silver { background: silver; }
+.blue { background: steelblue; }
+.gold { background: goldenrod; }
+
+.card h2 {
+    font-size: 18px;
+    margin: 12px 0 4px;
+    font-weight: bold;
+    color: rgb(106, 10, 209);
+}
+
+.card p {
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+}
+
+.card .price {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 8px 0;
+    transition: transform 0.7s ease-in-out, color 0.7s ease;
+}
+
+.card .price:hover {
+    animation: shake 0.7s, showbackground 0.7s;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-10px); }
+    50% { transform: translateX(10px); }
+    75% { transform: translateX(-10px); }
+    100% { transform: translateX(0); }
+}
+
+@keyframes showbackground {
+    from {
+        color: black;
+    }
+    to {
+        color: rgb(49, 216, 49); 
+    }
+}
+
+.card button {
+    background: rgb(106, 10, 209);
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    gap: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card button:hover {
+    background: #43025f;
+    transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: repeat(auto-fit);
+    }
+}
