@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Register Page</title>
+</head>
+<body>
+    <div class="register-container">
+        <h2>Kayıt Ol</h2>
+        <form action="#" method="POST" onsubmit="return validatePassword()">
+            <label for="fullname">Adınız ve Soyadınız:</label>
+            <input type="text" name="fullname" id="fullname" placeholder="Adınız ve Soyadınız" required>
+
+            <label for="email">Email Adresiniz:</label>
+            <input type="email" name="email" id="email" placeholder="Email Adresiniz" required>
+
+            <label for="birthday">Doğum Tarihiniz:</label>
+            <input type="date" name="birthday" id="birthday" required>
+
+            <label for="tel">Telefon Numaranız:</label>
+            <input type="tel" name="tel" id="tel" placeholder="Telefon Numaranız" required maxlength="15" minlength="11" pattern="\d+">
+
+            <label for="password">Şifre:</label>
+            <div class="password-container">
+                <input type="password" name="password" id="password" placeholder="Şifre" required>
+                <span class="toggle-password" onclick="togglePasswordVisibility('password')">
+                    <i class="fas fa-eye"></i>
+                </span>
+            </div>
+
+            <label for="confirm-password">Şifre Tekrar:</label>
+            <div class="password-container">
+                <input type="password" name="confirm-password" id="confirm-password" placeholder="Şifre Tekrar" required>
+                <span class="toggle-password" onclick="togglePasswordVisibility('confirm-password')">
+                    <i class="fas fa-eye"></i>
+                </span>
+            </div>
+            <p id="password-error" class="error-message"></p>
+
+            <button type="submit">Kayıt Ol</button>
+        </form>
+        <p>Zaten hesabınız var mı? <a href="/giris">Giriş Yap</a></p>
+    </div>
+
+    <script>
+        function validatePassword() {
+            const password = document.getElementById('password').value;
+            const confirmPassword = document.getElementById('confirm-password').value;
+            const passwordError = document.getElementById('password-error');
+
+            if (password.length <= 5) {
+                passwordError.textContent = "Şifre en az 6 karakter uzunluğunda olmalıdır.";
+                return false;
+            }
+            if (password !== confirmPassword) {
+                passwordError.textContent = "Şifreler eşleşmiyor.";
+                return false;
+            }
+            passwordError.textContent = "";
+            return true;
+        }
+
+        function togglePasswordVisibility(inputId) {
+            const input = document.getElementById(inputId);
+            const toggleIcon = input.nextElementSibling.querySelector('i');
+
+            if (input.type === 'password') {
+                input.type = 'text';
+                toggleIcon.classList.remove('fa-eye');
+                toggleIcon.classList.add('fa-eye-slash');
+            } else {
+                input.type = 'password';
+                toggleIcon.classList.remove('fa-eye-slash');
+                toggleIcon.classList.add('fa-eye');
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const today = new Date().toISOString().split('T')[0];
+            document.getElementById('birthday').setAttribute('max', today);
+        });
+    </script>
+</body>
+</html>
