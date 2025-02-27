@@ -1,0 +1,31 @@
+.showProducts {
+    background-color: rgb(5, 169, 18);
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+}
+
+.removeProduct {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+}
+
+.addProduct {
+    background-color: rgb(0, 110, 255);
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+}
+
+.showCart {
+    background-color: rgb(255, 174, 0);
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+}
