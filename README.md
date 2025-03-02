@@ -10,7 +10,6 @@ Bu repo, **Insider CodeCraft Bootcamp** kapsamında tamamladığım ödevleri ve
 - **Açıklama:** Basit bir kullanıcı kayıt formu oluşturuldu. Form, ad, soyad, e-posta ve şifre giriş alanlarını içermektedir.
 <img width="640" alt="Ekran Resmi 2025-02-24 00 26 45" src="https://github.com/user-attachments/assets/52866c9d-b968-4421-a952-eb11b2f9d667" />
 
-
 ### 2️⃣ Kredi Kartı Dönme Efekti
 - **Konu:** Kredi kartı ön ve arka yüzünün dönüş efekti ile gösterilmesi.
 - **Kullanılan Teknolojiler:** HTML, CSS
@@ -25,7 +24,7 @@ Bu repo, **Insider CodeCraft Bootcamp** kapsamında tamamladığım ödevleri ve
 
 ---
 
-## 🎯 Proje Ödevi: Favori Dizi Sayfası
+## 🎯 Favori Dizi Sayfası
 
 Bu projede, favori dizim **Breaking Bad** için tek sayfalık bir web sitesi tasarladım. Sayfa, **mobil uyumlu** olacak şekilde hazırlandı ve aşağıdaki bölümleri içermektedir.
 
@@ -82,13 +81,40 @@ Bu projede, favori dizim **Breaking Bad** için tek sayfalık bir web sitesi tas
 - **Kullanılan Teknolojiler:** HTML, CSS, Javascript
 - **Açıklama:** Basit bir kullanıcı bilgileri prompt ile alındı. Ürün seçimi sağlandı ve sepet tutarı hesaplandı.
 
+### 2️⃣ Collatz Sequence
+- **Konu:** Collatz Sequence algoritmasının çözülmesi.
+- **Kullanılan Teknolojiler:** HTML, Javascript
 
-### Gerçek Zamanlı Görev Yönetim Uygulaması
+### 3️⃣ Geri Sayım Aracı
+- **Konu:** Geri sayım sayacı oluşturulması
+- **Kullanılan Teknolojiler:** HTML, CSS, Javascript
+<img width="640" alt="Ekran Resmi 2025-03-03 00 53 30" src="https://github.com/user-attachments/assets/967aac67-6ff0-4419-a21a-b0d8f3f00fb5" />
+<img width="640" alt="Ekran Resmi 2025-03-03 00 53 53" src="https://github.com/user-attachments/assets/07430e25-86bd-4ccd-b5be-34dae2b39ad6" />
 
+---
+
+## 🎯 Gerçek Zamanlı Görev Yönetim Uygulaması
+
+Bu proje, kullanıcıların görevlerini ekleyip yönetebileceği, tamamlanan görevleri filtreleyebileceği ve görevleri önceliklendirebileceği dinamik bir görev yönetim uygulamasıdır. Proje, HTML, CSS ve JavaScript kullanılarak geliştirilmiştir.
+
+## 🔧 Özellikler
+- ✅ Event Delegation kullanılarak buton etkileşimleri optimize edildi.
+- ✅ stopPropagation() metodu ile gereksiz olay yayılması engellendi.
+- ✅ try-catch bloğu ile hata yönetimi sağlandı.
+- ✅ Görev Ekleme: Kullanıcılar başlık, açıklama ve öncelik belirterek yeni bir görev ekleyebilir.
+- ✅ Görev Listesi: Eklenen görevler dinamik olarak listeye eklenir.
+- ✅ Tamamlama Durumu: Kullanıcı bir görevi tamamlandı olarak işaretleyebilir.
+- ✅ Görev Silme: Kullanıcı, istediği görevi listeden silebilir.
+- ✅ Form Doğrulama: Boş başlık ve seçilmemiş öncelik durumlarında hata mesajı gösterilir.
+- ✅ Filtreleme: Kullanıcı, sadece tamamlanan görevleri gösterebilir.
+- ✅ Mobil uyumlu responsive tasarım kullanılmıştır.
+  
+---
+## Görseller:
 <img width="840" alt="Ekran Resmi 2025-03-02 17 19 13" src="https://github.com/user-attachments/assets/cd4f4448-a9df-4f55-9a00-6a09bda6568d" />
 <img width="840" alt="Ekran Resmi 2025-03-02 17 19 47" src="https://github.com/user-attachments/assets/6278fb47-ebf9-4028-83fa-7e7aa3302788" />
 <img width="840" alt="Ekran Resmi 2025-03-02 17 19 56" src="https://github.com/user-attachments/assets/5f92a426-d717-4284-9f31-aa47db09688e" />
-
 <img width="840" alt="Ekran Resmi 2025-03-02 17 24 05" src="https://github.com/user-attachments/assets/d6527d92-62ef-44fc-ad00-8fe0106f8783" />
-<img width="316" alt="Ekran Resmi 2025-03-02 17 53 09" src="https://github.com/user-attachments/assets/183cee30-b035-43cc-8130-b46d76c3ad2f" />
+<img width="216" alt="Ekran Resmi 2025-03-02 17 53 09" src="https://github.com/user-attachments/assets/183cee30-b035-43cc-8130-b46d76c3ad2f" />
 
+---
