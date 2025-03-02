@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Task Manager</h1>
+        <div class="filter-buttons">
+            <button id="openFormBtn">Add Task</button>
+            <button id="showCompletedBtn">Show Completed</button>
+            <button id="showIncompleteBtn">Show Incomplete</button>
+            <button id="showAllBtn">Show All</button>
+        </div>
+        <div id="taskFormModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <form id="taskForm">
+                    <label for="title">*Title:</label>
+                    <input type="text" id="title" name="title" required>
+                    <label for="description">Description:</label>
+                    <textarea id="description" name="description"></textarea>
+                    <label>*Priority:</label>
+                    <div class="priority-cards">
+                        <label class="priority-card low">
+                            <input type="radio" name="priority" value="low" required> Low
+                        </label>
+                        <label class="priority-card medium">
+                            <input type="radio" name="priority" value="medium" required> Medium
+                        </label>
+                        <label class="priority-card high">
+                            <input type="radio" name="priority" value="high" required> High
+                        </label>
+                    </div>
+                    <div class="form-buttons">
+                        <button type="submit">Add Task</button>
+                        <button type="button" id="cancelBtn">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="taskList" class="task-container">
+        <div class="task-column low-priority">
+            <h2>Low Priority</h2>
+            <ul id="lowTaskList"></ul>
+        </div>
+        <div class="task-column medium-priority">
+            <h2>Medium Priority</h2>
+            <ul id="mediumTaskList"></ul>
+        </div>
+        <div class="task-column high-priority">
+            <h2>High Priority</h2>
+            <ul id="highTaskList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
