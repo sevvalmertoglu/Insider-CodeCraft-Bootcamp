@@ -1,0 +1,77 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6a82fb 0%, #c5a5f4 40%, #fbc8d9 70%, #f6fffe 100%);
+    margin: 0;
+}
+.card {
+    background: #f9edf1;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 400px;
+}
+h1 {
+    color: #6a82fb;
+    margin-bottom: 20px;
+}
+label {
+    color: #b284f7;
+    font-size: 1rem;
+}
+#countdown {
+    font-size: 3rem;
+    margin: 20px auto;
+    color: #6a82fb;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 5px solid #6a82fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+input {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 15px;
+    border: 2px solid #c5a5f4;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+#start {
+    background-color: #6a82fb;
+    color: white;
+}
+#start:hover {
+    background-color: #4564fb;
+}
+#reset {
+    background-color: #fbb1ca ;
+    color: white;
+}
+#reset:hover {
+    background-color: #fc97b8 ;
+}
+#error-message {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 5px;
+    display: none;
+}
