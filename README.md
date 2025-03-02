@@ -83,3 +83,12 @@ Bu projede, favori dizim **Breaking Bad** için tek sayfalık bir web sitesi tas
 - **Açıklama:** Basit bir kullanıcı bilgileri prompt ile alındı. Ürün seçimi sağlandı ve sepet tutarı hesaplandı.
 
 
+### Gerçek Zamanlı Görev Yönetim Uygulaması
+
+<img width="840" alt="Ekran Resmi 2025-03-02 17 19 13" src="https://github.com/user-attachments/assets/cd4f4448-a9df-4f55-9a00-6a09bda6568d" />
+<img width="840" alt="Ekran Resmi 2025-03-02 17 19 47" src="https://github.com/user-attachments/assets/6278fb47-ebf9-4028-83fa-7e7aa3302788" />
+<img width="840" alt="Ekran Resmi 2025-03-02 17 19 56" src="https://github.com/user-attachments/assets/5f92a426-d717-4284-9f31-aa47db09688e" />
+
+<img width="840" alt="Ekran Resmi 2025-03-02 17 24 05" src="https://github.com/user-attachments/assets/d6527d92-62ef-44fc-ad00-8fe0106f8783" />
+<img width="316" alt="Ekran Resmi 2025-03-02 17 53 09" src="https://github.com/user-attachments/assets/183cee30-b035-43cc-8130-b46d76c3ad2f" />
+
