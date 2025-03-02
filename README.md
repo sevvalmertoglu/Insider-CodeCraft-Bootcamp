@@ -2,7 +2,7 @@
 
 Bu repo, **Insider CodeCraft Bootcamp** kapsamında tamamladığım ödevleri ve proje çalışmasını içermektedir.
 
-## 📌 Ödevler
+## 📌 1.Hafta Ödevler
 
 ### 1️⃣ Register Ekranı
 - **Konu:** Kullanıcı kayıt ekranı tasarımı.
@@ -75,4 +75,11 @@ Bu projede, favori dizim **Breaking Bad** için tek sayfalık bir web sitesi tas
 <img width="840" alt="Ekran Resmi 2025-02-23 23 16 52" src="https://github.com/user-attachments/assets/89472d63-6776-475d-b2a2-a24b7671e43d" />
 
 <img width="840" alt="Ekran Resmi 2025-02-23 23 17 06" src="https://github.com/user-attachments/assets/f93073a0-9a52-436e-bfc9-1f38f4b119f8" />
+
+## 📌 2.Hafta Ödevler
+### 1️⃣ Basit Sepet Uygulaması
+- **Konu:** Basit bir alışveriş sitesi sepet kısmı
+- **Kullanılan Teknolojiler:** HTML, CSS, Javascript
+- **Açıklama:** Basit bir kullanıcı bilgileri prompt ile alındı. Ürün seçimi sağlandı ve sepet tutarı hesaplandı.
+
 
