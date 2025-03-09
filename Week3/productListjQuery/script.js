@@ -144,7 +144,7 @@ $(document).ready(function () {
           background: rgba(0, 0, 0, 0.5);
           justify-content: center;
           align-items: center;
-          z-index: 9999;
+          z-index: 10000;
         }
         #popup .popup-content {
           background-color: white;
