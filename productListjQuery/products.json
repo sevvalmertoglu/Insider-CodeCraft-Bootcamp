@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "APPLE MacBook Air M2 8GB-512GB SSD 13.6inç Gümüş",
+    "price": "44.999₺",
+    "image": "images/laptop.jpg",
+    "link": "https://www.mediamarkt.com.tr/tr/product/_apple-macbook-air-m2-8gb-512gb-ssd-136inc-gumus-mly03tua-1222682.html",
+    "details": "16 çekirdekli Neural Engine<br/>True Tone özelliğine sahip 13.6 inç Liquid Retina ekran<br/>12MP Center Stage kamera<br/>MagSafe 3 şarj bağlantı noktası<br/>İki adet Thunderbolt 4 bağlantı noktası<br/>İki adede kadar harici ekran desteği<br/>Touch ID özellikli Magic Keyboard<br/>Force Touch trackpad<br/>30 W USB-C Güç Adaptörü"
+  },
+  {
+    "id": 2,
+    "name": "APPLE iPhone 13 128 GB Akıllı Telefon Starlight",
+    "price": "33.999₺",
+    "image": "images/iphone.jpg",
+    "link": "https://www.mediamarkt.com.tr/tr/product/_apple-iphone-13-128-gb-akilli-telefon-starlight-mlpg3tua-1217605.html",
+    "details": "Seri: iPhone 13<br/>RAM Kapasitesi: 4 GB<br/>Dahili Hafıza: 128 GB<br/>Ekran Boyutu: 6.1 inç<br/>Batarya Kapasitesi: 3227 mAh<br/>Çıkış Yılı: 2021<br/>Ekran Çözünürlüğü: 1170x2532 px<br/>Ekran Yenileme Hızı: 60 Hz<br/>Ekran Teknolojisi: OLED<br/>Ekran Parlaklık Değeri: 800 nits<br/>Piksel Yoğunluğu: 460 PPI<br/>Ekran Gövde Oranı: 86%"
+  },
+  {
+    "id": 3,
+    "name": "APPLE Airpods 4 Bluetooth Kulak İçi Kulaklık",
+    "price": "6.299₺",
+    "image": "images/headphone.jpg",
+    "link": "https://www.mediamarkt.com.tr/tr/product/_apple-airpods-bluetooth-kulak-ici-kulaklik-mxp63tua-1239693.html",
+    "details": "Bluetooth 5.3 teknolojisi<br/>Uzun pil ömrü: 6 saat (tek şarj)<br/>Şarj kutusuyla birlikte 30 saat kullanım<br/>Suya ve tere dayanıklı (IPX4)<br/>Hızlı şarj özelliği<br/>Otomatik açma ve otomatik bağlanma<br/>Siri desteği"
+  },
+  {
+    "id": 4,
+    "name": "KARACA MasterMaid Chef 1500W 5 L Standlı Mikser Kırmızı",
+    "price": "4.299₺",
+    "image": "images/mixer.jpg",
+    "link": "https://www.mediamarkt.com.tr/tr/product/_karaca-mastermaid-chef-1500w-5-l-standli-mikser-kirmizi-1240892.html",
+    "details": "1500W güçlü motor<br/>5 litre paslanmaz çelik kase<br/>12 hız ayarı<br/>Turbo fonksiyonu<br/>Paslanmaz çelik çırpıcı, yoğurucu ve hamur kancası<br/>Katlanabilir tasarım<br/>Kolay temizlenebilir"
+  },
+  {
+    "id": 5,
+    "name": "APPLE iPhone 16 Pro 128GB Akıllı Telefon Desert Titanium",
+    "price": "79.999₺",
+    "image": "images/iphone_16pro.jpg",
+    "link": "https://www.mediamarkt.com.tr/tr/product/_apple-iphone-16-pro-128gb-akilli-telefon-desert-titanium-mynf3tua-1239561.html",
+    "details": "Seri: iPhone 16 Pro<br/>RAM Kapasitesi: 8 GB<br/>Dahili Hafıza: 128 GB<br/>Ekran Boyutu: 6.7 inç<br/>Batarya Kapasitesi: 4500 mAh<br/>Çıkış Yılı: 2024<br/>Ekran Çözünürlüğü: 1290x2796 px<br/>Ekran Yenileme Hızı: 120 Hz<br/>Ekran Teknolojisi: Super Retina XDR<br/>Ekran Parlaklık Değeri: 1200 nits<br/>Piksel Yoğunluğu: 460 PPI<br/>Ekran Gövde Oranı: 89%"
+  },
+  {
+    "id": 6,
+    "name": "SAMSUNG Galaxy Tab A9 64 GB Graphite Tablet",
+    "price": "4.199₺",
+    "image": "images/samsung.jpg",
+    "link": "https://www.mediamarkt.com.tr/tr/product/_samsung-galaxy-tab-a9-64-gb-graphite-tablet-sm-x110nzaatur-1233341.html",
+    "details": "Ekran Boyutu: 8.7 inç<br/>Çözünürlük: 1340x800 px<br/>İşlemci: MediaTek Helio G99<br/>RAM: 4 GB<br/>Dahili Depolama: 64 GB<br/>Pil Kapasitesi: 5100 mAh<br/>İşletim Sistemi: Android 13<br/>Kamera: 8 MP arka, 2 MP ön<br/>Wi-Fi ve Bluetooth desteği"
+  },
+  {
+    "id": 7,
+    "name": "APPLE 11 inç iPad 11.Nesil (A16) Wi-Fi 128 GB Tablet Gümüş",
+    "price": "16.999₺",
+    "image": "images/ipad.jpg",
+    "link": "https://www.mediamarkt.com.tr/tr/product/_apple-11-inc-ipad-11nesil-a16-wi-fi-128-gb-tablet-gumus-md3y4tua-1245605.html",
+    "details": "Ekran Boyutu: 11 inç<br/>Çözünürlük: 2388x1668 px<br/>İşlemci: Apple A16 Bionic<br/>RAM: 8 GB<br/>Dahili Depolama: 128 GB<br/>Pil Kapasitesi: 7538 mAh<br/>İşletim Sistemi: iPadOS 17<br/>Kamera: 12 MP arka, 7 MP ön<br/>Wi-Fi ve Bluetooth desteği"
+  },
+  {
+    "id": 8,
+    "name": "SAMSUNG S3 S30D 22 inç 5ms 100Hz Full HD FreeSync IPS Monitör",
+    "price": "4.299₺",
+    "image": "images/monitor.jpg",
+    "link": "https://www.mediamarkt.com.tr/tr/product/_samsung-s3-s30d-22-5ms-100hz-full-hd-freesync-ips-monitor-siyah-ls22d300gauxuf-1243266.html",
+    "details": "Ekran Boyutu: 22 inç<br/>Çözünürlük: 1920x1080 px<br/>Tepki Süresi: 5 ms<br/>Yenileme Hızı: 100 Hz<br/>Panel Türü: IPS<br/>Bağlantılar: HDMI, VGA<br/>FreeSync teknolojisi<br/>Göz koruma modu"
+  }
+]
