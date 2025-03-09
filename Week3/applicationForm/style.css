@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+#jobFormContainer {
+    display: none;
+    background: #f9f9f9;
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 5px 0;
+    text-align: left;
+}
+
+input, select {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select {
+    background: #fff;
+    cursor: pointer;
+}
+
+label.error {
+    color: red;
+    font-size: 0.7em;
+    font-style: italic;
+    margin-top: -8px;
+    margin-bottom: 5px;
+}
+
+.submit-btn, .show-form-btn {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.submit-btn:hover {
+    background: #218838;
+}
+
+.close-btn {
+    background: #6c757d;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.close-btn:hover {
+    background: #5a6268;
+}
+
+#successMessage {
+    display: none;
+    color: green;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+@media (max-width: 480px) {
+    #jobFormContainer {
+        width: 90%;
+        margin: 20px auto;
+    }
+}

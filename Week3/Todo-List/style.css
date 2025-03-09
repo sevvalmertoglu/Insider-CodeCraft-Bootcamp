@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #3D8D7A;
+}
+
+.task-input-container {
+    display: flex;
+    width: 100%;
+    gap: 10px; 
+}   
+
+#taskInput {
+    flex: 1;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #85A947;
+    border-radius: 4px;
+    height: 20px; 
+}
+
+#addTaskBtn {
+    width: 120px;
+    height: 40px;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+#addTaskBtn:hover {
+    background-color: #38cd58;
+}
+
+#taskList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#taskList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    border: 1px solid #85A947;
+    border-radius: 15px;
+    min-height: 40px; 
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+#taskList li span {
+    flex-grow: 1; 
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 60%; 
+}
+
+.task-actions {
+    display: flex;
+    gap: 8px; 
+}
+
+#taskList li span.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.complete-btn,
+.delete-btn {
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.complete-btn {
+    background-color: #3E7B27;
+    color: white;
+}
+
+.complete-btn:hover {
+    background-color: #38cd58;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+    height: 30px;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+#taskList li .complete-btn.completed {
+    background-color: transparent !important;
+    background-image: url('images/check.png');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px; 
+    height: 30px;
+    color: transparent;
+}
+

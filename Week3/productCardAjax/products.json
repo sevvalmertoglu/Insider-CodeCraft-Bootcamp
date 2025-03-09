@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "APPLE MacBook Air M2 8GB-512GB SSD 13.6inç Gümüş",
+    "price": "44.999₺",
+    "image": "images/laptop.jpg",
+    "link": "https://www.mediamarkt.com.tr/tr/product/_apple-macbook-air-m2-8gb-512gb-ssd-136inc-gumus-mly03tua-1222682.html"
+  },
+  {
+    "id": 2,
+    "name": "APPLE iPhone 13 128 GB Akıllı Telefon Starlight",
+    "price": "33.999₺",
+    "image": "images/iphone.jpg",
+    "link": "https://www.mediamarkt.com.tr/tr/product/_apple-iphone-13-128-gb-akilli-telefon-starlight-mlpg3tua-1217605.html"
+  },
+  {
+    "id": 3,
+    "name": "APPLE Airpods 4 Bluetooth Kulak İçi Kulaklık",
+    "price": "6.299₺",
+    "image": "images/headphone.jpg",
+    "link": "https://www.mediamarkt.com.tr/tr/product/_apple-airpods-bluetooth-kulak-ici-kulaklik-mxp63tua-1239693.html"
+  },
+  {
+    "id": 4,
+    "name": "KARACA MasterMaid Chef 1500W 5 L Standlı Mikser Kırmızı",
+    "price": "4.299₺",
+    "image": "images/mixer.jpg",
+    "link": "https://www.mediamarkt.com.tr/tr/product/_karaca-mastermaid-chef-1500w-5-l-standli-mikser-kirmizi-1240892.html"
+  },
+  {
+    "id": 5,
+    "name": "APPLE iPhone 16 Pro 128GB Akıllı Telefon Desert Titanium",
+    "price": "79.999₺",
+    "image": "images/iphone_16pro.jpg",
+    "link": "https://www.mediamarkt.com.tr/tr/product/_apple-iphone-16-pro-128gb-akilli-telefon-desert-titanium-mynf3tua-1239561.html"
+  },
+  {
+    "id": 6,
+    "name": "SAMSUNG Galaxy Tab A9 64 GB Graphite Tablet",
+    "price": "4.199₺",
+    "image": "images/samsung.jpg",
+    "link": "https://www.mediamarkt.com.tr/tr/product/_samsung-galaxy-tab-a9-64-gb-graphite-tablet-sm-x110nzaatur-1233341.html"
+  },
+  {
+    "id": 7,
+    "name": "APPLE 11 inç iPad 11.Nesil (A16) Wi-Fi 128 GB Tablet Gümüş",
+    "price": "16.999₺",
+    "image": "images/ipad.jpg",
+    "link": "https://www.mediamarkt.com.tr/tr/product/_apple-11-inc-ipad-11nesil-a16-wi-fi-128-gb-tablet-gumus-md3y4tua-1245605.html"
+  },
+  {
+    "id": 8,
+    "name": "SAMSUNG S3 S30D 22 inç 5ms 100Hz Full HD FreeSync IPS Monitör",
+    "price": "4.299₺",
+    "image": "images/monitor.jpg",
+    "link": "https://www.mediamarkt.com.tr/tr/product/_samsung-s3-s30d-22-5ms-100hz-full-hd-freesync-ips-monitor-siyah-ls22d300gauxuf-1243266.html"
+  }
+]

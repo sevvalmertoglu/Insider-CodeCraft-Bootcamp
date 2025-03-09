@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.21.0/jquery.validate.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <title>İş Başvuru Formu</title>
+</head>
+<body>
+    <button id="showFormBtn" class="show-form-btn">Başvuru Yap</button>
+
+    <div id="jobFormContainer">
+        <form id="jobApplicationForm">
+            <h2>İş Başvuru Formu</h2>
+            <label for="name">Ad:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="surname">Soyad:</label>
+            <input type="text" id="surname" name="surname" required>
+
+            <label for="email">E-Posta:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Telefon:</label>
+            <input type="text" id="phone" name="phone" required>
+
+            <label for="dob">Doğum Tarihi:</label>
+            <input type="text" id="dob" name="dob" required>
+
+            <label for="position">Başvurduğunuz Pozisyon:</label>
+            <select name="position" required>
+                <option value="">Pozisyon Seçin</option>
+                <option value="Frontend Developer">Frontend Developer</option>
+                <option value="Backend Developer">Backend Developer</option>
+                <option value="Full-Stack Developer">Full-Stack Developer</option>
+                <option value="Mobil Developer">Mobil Developer</option>
+            </select>
+
+            <button type="submit" class="submit-btn">Gönder</button>
+            <button type="button" class="close-btn" id="closeFormBtn">Kapat</button>
+        </form>
+    </div>
+
+    <div id="successMessage">Başvurunuz başarıyla alındı!</div>
+<script src="script.js"></script>
+</body>
+</html>
