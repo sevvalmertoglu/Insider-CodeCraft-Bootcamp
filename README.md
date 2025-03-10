@@ -116,5 +116,22 @@ Bu proje, kullanıcıların görevlerini ekleyip yönetebileceği, tamamlanan g�
 <img width="840" alt="Ekran Resmi 2025-03-02 17 19 56" src="https://github.com/user-attachments/assets/5f92a426-d717-4284-9f31-aa47db09688e" />
 <img width="840" alt="Ekran Resmi 2025-03-02 17 24 05" src="https://github.com/user-attachments/assets/d6527d92-62ef-44fc-ad00-8fe0106f8783" />
 <img width="216" alt="Ekran Resmi 2025-03-02 17 53 09" src="https://github.com/user-attachments/assets/183cee30-b035-43cc-8130-b46d76c3ad2f" />
-
 ---
+
+## 📌 3.Hafta Ödevler
+### 1️⃣ To-do List
+- **Konu:** Basit bir görev ekleme, silme ve tamamlama uygulaması.
+- **Kullanılan Teknolojiler:** HTML, CSS, Javascript, JQuery
+<img width="840" alt="Ekran Resmi 2025-03-10 20 41 21" src="https://github.com/user-attachments/assets/8ff49644-88bc-4c2b-9a2e-bd6ad4ce939a" />
+
+### 2️⃣ Ürün Listeleme
+- **Konu:** Json verilerini Ajax ile çekip ürünlerin listelendiği bir ekran oluşturulması.
+- **Kullanılan Teknolojiler:** HTML, CSS, Javascript, JQuery, Ajax
+<img width="840" alt="Ekran Resmi 2025-03-10 20 45 53" src="https://github.com/user-attachments/assets/1ff000b0-2f9d-423a-9303-d6b302325a89" />
+<img width="840" alt="Ekran Resmi 2025-03-10 20 46 03" src="https://github.com/user-attachments/assets/ca87c51e-2293-4dcd-aad1-40114ad50a72" />
+
+### 3️⃣ Başvuru Formu
+- **Konu:** Bir iş başvuru formu oluşturup, form animasyonlarla gösterildi ve JQuery doğrulama işlemleri yapıldı.
+- **Kullanılan Teknolojiler:** HTML, CSS, Javascript, JQuery, Ajax
+<img width="840" alt="Ekran Resmi 2025-03-10 20 50 51" src="https://github.com/user-attachments/assets/2640cd4a-77af-4818-84e2-91732bbfdbb0" />
+
