@@ -16,17 +16,16 @@ const loadUsers = async () => {
     }
 };
 
-const fetchUsers = async () => {
-    try {
-        const response = await fetch(API_URL);
-        if (!response.ok) throw new Error("API connection failed!");
-        
-        const users = await response.json();
-        saveUsersToStorage(users);
-        renderUsers(users);
-    } catch (error) {
-        showError(error.message);
-    }
+const fetchUsers = () => {
+    return new Promise((resolve, reject) => {
+        fetch(API_URL)
+            .then(response => {
+                if (!response.ok) throw new Error("API connection failed!");
+                return response.json();
+            })
+            .then(data => resolve(data))
+            .catch(error => reject(error));
+    });
 };
 
 const saveUsersToStorage = (users) => {
