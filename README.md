@@ -24,7 +24,7 @@ Bu repo, **Insider CodeCraft Bootcamp** kapsamında tamamladığım ödevleri ve
 
 ---
 
-## 🎯 Favori Dizi Sayfası
+## 🎯 4️⃣ Favori Dizi Sayfası
 
 Bu projede, favori dizim **Breaking Bad** için tek sayfalık bir web sitesi tasarladım. Sayfa, **mobil uyumlu** olacak şekilde hazırlandı ve aşağıdaki bölümleri içermektedir.
 
@@ -65,7 +65,6 @@ Bu projede, favori dizim **Breaking Bad** için tek sayfalık bir web sitesi tas
 - ✅  "**Favorilere Ekle**" butonu eklendi ve JavaScript ile buton tıklandığında renk değiştiriyor.
 
 ---
-## Görseller:
 <img width="840" alt="Ekran Resmi 2025-02-23 23 16 14" src="https://github.com/user-attachments/assets/14f08cd7-41ba-4b58-899c-22ad88735334" />
 <img width="840" alt="Ekran Resmi 2025-02-23 23 16 34" src="https://github.com/user-attachments/assets/044ba5d6-918e-4f4d-94d7-4914cdbb573a" />
 
@@ -93,7 +92,7 @@ Bu projede, favori dizim **Breaking Bad** için tek sayfalık bir web sitesi tas
 
 ---
 
-## 🎯 Gerçek Zamanlı Görev Yönetim Uygulaması
+## 🎯 4️⃣ Gerçek Zamanlı Görev Yönetim Uygulaması
 
 Bu proje, kullanıcıların görevlerini ekleyip yönetebileceği, tamamlanan görevleri filtreleyebileceği ve görevleri önceliklendirebileceği dinamik bir görev yönetim uygulamasıdır. Proje, HTML, CSS ve JavaScript kullanılarak geliştirilmiştir.
 
@@ -110,7 +109,6 @@ Bu proje, kullanıcıların görevlerini ekleyip yönetebileceği, tamamlanan g�
 - ✅ Mobil uyumlu responsive tasarım kullanılmıştır.
   
 ---
-## Görseller:
 <img width="840" alt="Ekran Resmi 2025-03-02 17 19 13" src="https://github.com/user-attachments/assets/cd4f4448-a9df-4f55-9a00-6a09bda6568d" />
 <img width="840" alt="Ekran Resmi 2025-03-02 17 19 47" src="https://github.com/user-attachments/assets/6278fb47-ebf9-4028-83fa-7e7aa3302788" />
 <img width="840" alt="Ekran Resmi 2025-03-02 17 19 56" src="https://github.com/user-attachments/assets/5f92a426-d717-4284-9f31-aa47db09688e" />
@@ -118,3 +116,41 @@ Bu proje, kullanıcıların görevlerini ekleyip yönetebileceği, tamamlanan g�
 <img width="216" alt="Ekran Resmi 2025-03-02 17 53 09" src="https://github.com/user-attachments/assets/183cee30-b035-43cc-8130-b46d76c3ad2f" />
 
 ---
+
+## 📌 3.Hafta Ödevler
+### 1️⃣ To-do List
+- **Konu:** Basit bir görev ekleme, silme ve tamamlama uygulaması. Responsive tasarım ile mobil uyumluluk sağlanmıştır.
+- **Kullanılan Teknolojiler:** HTML, CSS, JQuery
+<img width="840" alt="Ekran Resmi 2025-03-10 20 41 21" src="https://github.com/user-attachments/assets/8ff49644-88bc-4c2b-9a2e-bd6ad4ce939a" />
+
+### 2️⃣ Ürün Listeleme
+- **Konu:** Json verilerini Ajax ile çekip ürünlerin listelendiği bir ekran oluşturulması. Responsive tasarım ile mobil uyumluluk sağlanmıştır.
+- **Kullanılan Teknolojiler:** HTML, CSS, JQuery, Ajax
+<img width="840" alt="Ekran Resmi 2025-03-10 20 45 53" src="https://github.com/user-attachments/assets/1ff000b0-2f9d-423a-9303-d6b302325a89" />
+<img width="840" alt="Ekran Resmi 2025-03-10 20 46 03" src="https://github.com/user-attachments/assets/ca87c51e-2293-4dcd-aad1-40114ad50a72" />
+
+### 3️⃣ Başvuru Formu
+- **Konu:** Bir iş başvuru formu oluşturup, form animasyonlarla gösterildi ve JQuery doğrulama işlemleri yapıldı. Responsive tasarım ile mobil uyumluluk sağlanmıştır.
+- **Kullanılan Teknolojiler:** HTML, CSS, JQuery
+<img width="840" alt="Ekran Resmi 2025-03-10 20 50 51" src="https://github.com/user-attachments/assets/2640cd4a-77af-4818-84e2-91732bbfdbb0" />
+
+---
+
+## 🎯 4️⃣ 🛒 jQuery ile Dinamik Ürün Listeleme
+Bu proje, JSON formatında hazırlanan veri dosyası kullanılarak, ürünlerin dinamik olarak listelenmesini ve kullanıcı etkileşimleriyle detaylarının görüntülenmesini sağlayan bir web uygulamasıdır. HTML ve CSS kodları dışında tüm işlemler yalnızca jQuery kullanılarak gerçekleştirilmiştir.
+
+## 🔧 Özellikler
+- ✅ JSON Desteği: Ürün verileri JSON formatında saklanır ve dinamik olarak yüklenir.
+- ✅ Dinamik Ürün Listeleme: Ürünler, jQuery ve AJAX kullanılarak sayfaya eklenir.
+- ✅ Animasyon Efektleri: Üzerine gelindiğinde ürün kartlarında görsel efektler uygulanır.
+- ✅ Pop-up Ürün Detayı: Ürüne tıklandığında detayları içeren bir modal pencere açılır.
+- ✅ Her ürünün linki butonlara eklenmiştir.
+- ✅ Tamamen jQuery Tabanlı: Tüm işlemler jQuery kullanılarak gerçekleştirilir.
+- ✅ Responsive Tasarım: Mobil uyumluluk sağlanmıştır.
+<img width="840" alt="Ekran Resmi 2025-03-10 00 22 58" src="https://github.com/user-attachments/assets/51285c3b-701d-45ec-98cb-255ad0549fd6" />
+<img width="840" alt="Ekran Resmi 2025-03-10 00 23 11" src="https://github.com/user-attachments/assets/6d485a3c-c50a-4f50-abd9-c36b481b2d40" />
+<img width="216" alt="Ekran Resmi 2025-03-10 00 40 17" src="https://github.com/user-attachments/assets/9c0eb6c0-5f50-4999-b1e0-eba5e9f63521" />
+
+
+
+
