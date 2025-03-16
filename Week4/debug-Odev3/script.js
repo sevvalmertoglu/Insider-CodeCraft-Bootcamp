@@ -52,33 +52,34 @@ class ShoppingCart {
     removeItem(productId) {
         try {
             const itemIndex = this.items.findIndex(item => item.productId === productId);
-            
+    
             if (itemIndex === -1) {
                 throw new Error('Ürün sepette bulunamadı!');
             }
-
+    
             const item = this.items[itemIndex];
             const product = products.find(p => p.id === productId);
-
+    
             if (product) {
                 // Hata: Stok arttırma işlemi item.quantity kadar yapılmalıydı.
                 product.stock += item.quantity; 
             }
-
+    
             if (item.quantity > 1) {
                 this.items[itemIndex].quantity -= 1; // Hata: Bir üründen birden fazla eklenmişse tümü birden siliniyordu.
             } else {
                 this.items.splice(itemIndex, 1); 
             }
-
+    
             this.calculateTotal();
             this.updateUI();
-
+            document.dispatchEvent(new Event("updateStock"));
         } catch (error) {
             console.error('Ürün silme hatası:', error);
             this.showError(error.message);
         }
     }
+    
 
     calculateTotal() {
         // Hata: Toplam tutar hesaplanırken quantity çarpımı unutulmuştu.
@@ -202,11 +203,15 @@ class App {
                 }
             });
         }
+
+        document.addEventListener("updateStock", () => {
+            this.renderProducts();
+          });
     }
 
     addToCart(productId) {
-        window.cart.addItem(productId, 1);
-        this.renderProducts();
+        window.cart.addItem(productId, undefined);
+        document.dispatchEvent(new Event("updateStock"));
     }
 }
 
