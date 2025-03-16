@@ -151,6 +151,16 @@ Bu proje, JSON formatında hazırlanan veri dosyası kullanılarak, ürünlerin 
 <img width="840" alt="Ekran Resmi 2025-03-10 00 23 11" src="https://github.com/user-attachments/assets/6d485a3c-c50a-4f50-abd9-c36b481b2d40" />
 <img width="216" alt="Ekran Resmi 2025-03-10 00 40 17" src="https://github.com/user-attachments/assets/9c0eb6c0-5f50-4999-b1e0-eba5e9f63521" />
 
+---
+
+## 📌 4.Hafta Ödevler
+### 1️⃣ User-Fetcher List
+- **Konu:** Bu ödevde, bir API'den kullanıcı verisini çekmek, bu veriyi saklamak ve ekranda listelemek amacıyla Fetch API ve localStorage kullanılmaktadır. Ayrıca animasyonlarla desteklenmiştir. Kullanıcılar, liste üzerinde görüntülendikten sonra silinebilir ve silinen kullanıcılar localStorage'dan da kaldırılır. Responsive tasarıma dikkat edilmiştir.
+- **Kullanılan Teknolojiler:** HTML, CSS, Javascript, localstorage, Fetch API
+<img width="840" alt="Ekran Resmi 2025-03-15 14 40 53" src="https://github.com/user-attachments/assets/0b80bc03-ef85-48f6-8f16-4b08c8aa6da6" />
+
+
+
 
 
 
