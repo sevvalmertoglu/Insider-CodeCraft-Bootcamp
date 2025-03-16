@@ -155,9 +155,26 @@ Bu proje, JSON formatında hazırlanan veri dosyası kullanılarak, ürünlerin 
 
 ## 📌 4.Hafta Ödevler
 ### 1️⃣ User-Fetcher List
-- **Konu:** Bu ödevde, bir API'den kullanıcı verisini çekmek, bu veriyi saklamak ve ekranda listelemek amacıyla Fetch API ve localStorage kullanılmaktadır. Ayrıca animasyonlarla desteklenmiştir. Kullanıcılar, liste üzerinde görüntülendikten sonra silinebilir ve silinen kullanıcılar localStorage'dan da kaldırılır. Responsive tasarıma dikkat edilmiştir.
-- **Kullanılan Teknolojiler:** HTML, CSS, Javascript, localstorage, Fetch API
+- **Konu:** Bu ödevde, bir API'den kullanıcı verisini çekmek, bu veriyi saklamak ve ekranda listelemek amacıyla Fetch API ve localStorage kullanılmaktadır. Ayrıca animasyonlarla desteklenmiştir. Kullanıcılar, liste üzerinde görüntülendikten sonra silinebilir ve silinen kullanıcılar localStorage'dan da kaldırılır. Responsive tasarım uygulanmıştır.
+- **Kullanılan Teknolojiler:** HTML, CSS, Javascript, LocalStorage, Fetch API
 <img width="840" alt="Ekran Resmi 2025-03-15 14 40 53" src="https://github.com/user-attachments/assets/0b80bc03-ef85-48f6-8f16-4b08c8aa6da6" />
+
+## 🎯 2️⃣ User Manager
+- **Konu:** Bu projede, kullanıcıları API'den çekip listeleyebileceğiz. Kullanıcılar, ekranda silinebilir ve tüm kullanıcılar silindiğinde, kullanıcıların tekrar çekilebilmesi için bir buton gösterilecektir. Ayrıca, buton sadece bir kez gösterilecektir. Bu işlevsellik, localStorage ve sessionStorage kullanılarak yönetilecektir. Responsive tasarım uygulanmıştır.
+- **Kullanılan Teknolojiler:** HTML, CSS, Javascript, Fetch API, LocalStorage, SessionStorage, MutationObserver
+
+## 🔧 Özellikler
+- ✅ **Veri Çekme:** API'den kullanıcı verilerini çeker. Çekilen veriler expire ile birlikte localstorage'a kaydedilir.
+- ✅ **Kullanıcı Silme:** Her kullanıcıya ait bir silme butonu ile kullanıcı silinebilir.
+- ✅ **Tüm Kullanıcılar Silindiyse Buton Gösterme:** Tüm kullanıcılar silindiğinde, kullanıcıları tekrar çekmek için bir buton gösterilir.
+- ✅ **Tek Buton Gösterimi:** Buton sadece bir kez gösterilecek şekilde sessionStorage kullanılır.
+- ✅ **MutationObserver:** Butonun DOM'a eklenmesi kontrol edilir ve doğru şekilde işlevsel hale getirilir.
+
+<img width="840" alt="Ekran Resmi 2025-03-16 13 28 29" src="https://github.com/user-attachments/assets/405dff82-d1bf-4464-8a55-3d0a4e54ddf7" />
+
+### 3️⃣ Debug ile hata kontrolü
+- **Konu:** Hatalı olarak verilen kodu breakpoint yardımıyla hataları bulup iyileştirme yapılmıştır. Ayrıca pdf halinde hatalar raporlanmıştır.
+- **Kullanılan Teknolojiler:** HTML, CSS, Javascript
 
 
 
